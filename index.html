@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Online Code Editor</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Fira+Code&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Online Code Editor</h1>
+    <button id="run-btn">▶ Run</button>
+  </header>
+
+  <!-- Editors -->
+  <main class="editor-container">
+    <textarea id="html" placeholder="HTML"></textarea>
+    <textarea id="css"  placeholder="CSS"></textarea>
+    <textarea id="js"   placeholder="JavaScript"></textarea>
+  </main>
+
+  <!-- Live Preview -->
+  <iframe id="preview" title="Live Preview"></iframe>
+
+  <script src="script.js"></script>
+</body>
+</html>
